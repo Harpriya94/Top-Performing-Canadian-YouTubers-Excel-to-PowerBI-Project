@@ -9,7 +9,7 @@ This project is to discover the top performing Canada YouTubers to form marketin
 The goal is to provide **data-driven insights** that help business stakeholders improve **sales strategy, customer retention, and profitability**.
 
 The project demonstrates **end-to-end data analytics skills** using:
-- **Python** for data preparation
+- **Excel & Python** for data preparation
 - **SQL** for data cleaning and quality checks
 - **Power BI** for interactive dashboards and visualization
 
