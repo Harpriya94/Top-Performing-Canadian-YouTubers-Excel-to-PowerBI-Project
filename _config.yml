@@ -1,6 +1,7 @@
 
 theme: jekyll-theme-minimal
 title: Harpriya
+logo: assets/images/Profile Picture.JPG
 description: Bookmark this to keep an eye on my project updates!
 show_downloads: True
 plugins:
