@@ -1,6 +1,30 @@
 # Top performing Canada Youtubers Analysis for Marketing Campaign
 
 # Table of contents
+- [Objective](#Objective)
+- [User Story](#userstory)
+- [Data Source](#datasource)
+- [Stages](#stages)
+- [Design](#desgin)
+  - [Tools & Technologies](#tools&Technologies)  
+- [Development](#development)
+  - [Data Exploration](#dataexploration)
+  - [Data Cleaning](#datacleaning)
+  - [Data Transformation](#datatransformation)
+  - [Create SQL View](#sqlview)
+- [Testing](#testing)
+  - [Data Quality Checks](#datachecks)
+- [Visualization](#visualization)
+  - [Results](#results)
+  - [DAX Measure](#dax)
+- [Analysis](#analysis)
+  - [Findings](#findings)
+  - [Validation](#validation)
+  - [Discovery](#discovery)
+- [Recommendations](#recomm)
+  - [Potential ROI](#roi)
+  - [Potential Courses of Actions](#actions)
+- [Conclusion](#conclusion)
 - [Project Overview](#ProjectOverview)
 - [Business Problem](#BusinessProblem)
 
@@ -24,4 +48,12 @@ The project demonstrates **end-to-end data analytics skills** using:
 This analysis answers these questions and provides **actionable recommendations**.
 
 ---
+
+## 🛠️ Tools & Technologies
+| Tool | Purpose |
+|----|----|
+| Python (Pandas, NumPy) | Data cleaning and feature engineering |
+| SQL (PostgreSQL/MySQL) | Data analysis and aggregation |
+| Power BI | Interactive dashboards and reporting |
+| GitHub | Version control and project documentation |
 
