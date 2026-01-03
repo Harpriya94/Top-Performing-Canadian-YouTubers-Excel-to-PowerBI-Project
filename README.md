@@ -28,10 +28,10 @@ The Head of Marketing wants to use a dashboard to analyze the top performing You
 ---
 
 ### 💻Business Challenge
--	The Head of Marketing has found that finding the top YouTube channels in the Canada to run marketing campaigns with difficult.
--	She has performed online research but constantly bumps into overly complicated and conflicting insights.
--	She has also held calls with different third-party providers, but they are all expensive options for underwhelming results.
--	The reporting team lack the bandwidth to assist her with this assignment.
+1. The Head of Marketing has found that finding the top YouTube channels in the Canada to run marketing campaigns with difficult.
+2. She has performed online research but constantly bumps into overly complicated and conflicting insights.
+3. She has also held calls with different third-party providers, but they are all expensive options for underwhelming results.
+4. The reporting team lack the bandwidth to assist her with this assignment.
 
 ---
 
@@ -48,13 +48,13 @@ The Head of Marketing wants to use a dashboard to analyze the top performing You
 
 ### 🪜Project Stages
 The general approach in creating this solution from start to finish.
-- Development
+1. Development
   - Data Exploration
   - Data Cleaning
   - Data Quality Check
   - Visualization
-- Analysis
-- Validation
+2. Analysis
+3. Validation
 
  ---
 
@@ -62,23 +62,24 @@ The general approach in creating this solution from start to finish.
 
 #### Data Exploration
 This is the stage where you have a scan of what’s in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc. Steps taken at this stage:
-- Get source data from client
-- Exploring and analyzing data
-- Cell formatting from Text/General to Number
-- Rounding up values
-- Extracting Channel Name from first column separated by ‘@’ symbol.
-  
-![Excel Formula](/assets/images/Excel Formula - Split Cell Value.png) 
+1. Get source data from client
+2. Exploring and analyzing data
+3. Cell formatting from Text/General to Number
+4. Rounding up values
+5. Extracting Channel Name from first column separated by ‘@’ symbol.
+![Excel Formula](/assets/images/Excel Formula - Split Cell Value.png)
 
 #### Data Cleaning
 The aim is to refine our dataset to ensure it is structured and ready for analysis. Steps taken at this stage:
-- Create new database – use database
-- Import excel file
-- Remove unnecessary columns (use SELECT statement)
-- Extract YouTube channel names from first column (use CHARINDEX & SUBSTRING)
+1. Create new database – use database
+2. Import excel file
+3. Remove unnecessary columns (use SELECT statement)
+4. Extract YouTube channel names from first column (use CHARINDEX & SUBSTRING)
+
  ![SQL Data Cleaning](/assets/images/SQL Data Cleaning.png)
-- Rename the columns as applicable
-- Create SQL view for Power BI
+6. Rename the columns as applicable
+7. Create SQL view for Power BI
+
  ![SQL View](/assets/images/SQL View.png)
 
 #### Data Quality Check
