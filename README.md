@@ -25,8 +25,8 @@
   - [Potential ROI](#roi)
   - [Potential Courses of Actions](#actions)
 - [Conclusion](#conclusion)
-- [Project Overview](#ProjectOverview)
-- [Business Problem](#BusinessProblem)
+- [Project Overview](#Project-Overview)
+- [Business Problem](#Business-Problem)
 
 ## 📌 Project Overview
 This project is to discover the top performing Canada YouTubers to form marketing collaborations with throughout the year 2024.   
