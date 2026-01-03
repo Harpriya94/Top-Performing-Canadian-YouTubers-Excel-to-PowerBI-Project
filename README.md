@@ -83,6 +83,7 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 
 #### Data Quality Check
 Steps taken at this stage:
+
 - Row count test: at least 100 records required (Use COUNT)
 ```sql
 -- Row Count Check
@@ -91,7 +92,6 @@ SELECT
 FROM 
 	[dbo].[view_canada_youtube]
 ```
-  
 - Column count test: at least 4 columns required (Use COUNT in INFORMATION_SCHEMA.COLUMNS)
 ```sql
 -- Column Count Check
@@ -102,7 +102,6 @@ FROM
 WHERE 
 	TABLE_NAME = 'view_canada_youtube'
 ```
-
 - Datatype check: Channel name must be string and other columns should be whole numbers (Use INFORMATION_SCHEMA)
 ```sql
 -- Datatype Check
@@ -113,9 +112,7 @@ FROM
 WHERE 
 	TABLE_NAME = 'view_canada_youtube'
 ```
-
 - Duplicate check: each record must be unique (Use COUNT, GROUP BY, HAVING)
-
 ```sql
 -- Duplicate Check
 SELECT 
@@ -134,7 +131,6 @@ SELECT
 FROM 
 	[dbo].[view_canada_youtube]
 ```
-
 ![SQL Quality Check](/assets/images/SQL Data Testing.png)
 
 #### Visualization
@@ -142,35 +138,48 @@ This is how dashboard looks like:
 ![Dashboard](assets/images/Power BI Dashboard Visual.png)
 
 Steps taken at this stage:
-- Import SQL view file (cleaned) into power bi
-- Create DAX Measures
-1. Total Subscriber (M) = Sum of Total Subscriber / 1000000
+1. Import SQL view file (cleaned) into power bi
+2. Create DAX Measures
+
+	- Total Subscriber (M) = Sum of Total Subscriber / 1000000
+
 ![](/assets/images/DAX Measure - Total Subscriber.png)
-2. Total Views (B) = Sum of Total View / 1000000000
+
+	- Total Views (B) = Sum of Total View / 1000000000
+
 ![](/assets/images/DAX Measure - Total Views.png)
-4. Total Videos = Sum of Total Videos
+
+	3. Total Videos = Sum of Total Videos
+
 ![](/assets/images/DAX Measure - Total Videos.png)
-6. Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
+
+	4. Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
+
 ![](/assets/images/DAX Measure - Avg Views Per Video.png)
-8. Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
+
+	5. Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
+
 ![](/assets/images/DAX Measure - Subs Eng Rate.png)
-10. Views per Subscriber = Sum of Total View / Sum of Total Subscriber
+
+	6. Views per Subscriber = Sum of Total View / Sum of Total Subscriber
+
 ![](/assets/images/DAX Measure - views per subscriber.png)
+
 - Build visuals
-1. Create table visual
-2. Create a tree map visual
-3. Create a scorecard
-4. Create a bar chart
-5. Clean up the dashboard – color coding and alignments
+	1. Create table visual
+	2. Create a tree map visual
+	3. Create a scorecard
+	4. Create a bar chart
+	5. Clean up the dashboard – color coding and alignments
 
 ---
 
 ### Analysis
-Create excel sheet to calculate top 3 YouTube channels values calculated using excel formulas –
-- Avg Views per Video = Filtered values from Power BI file.
-- Potential Product Sales per Video = Avg Views per Video * Conversion Rate
-- Potential Revenue per Video $CAD = Potential Product Sales per Video * Production Cost
-- Net Profit = Potential Revenue per Video $CAD – Campaign Cost
+Create excel sheet to calculate top 3 YouTube channels values calculated using excel formulas:
+1. Avg Views per Video = Filtered values from Power BI file.
+2. Potential Product Sales per Video = Avg Views per Video * Conversion Rate
+3. Potential Revenue per Video $CAD = Potential Product Sales per Video * Production Cost
+4. Net Profit = Potential Revenue per Video $CAD – Campaign Cost
 
 ![](/assets/images/Excel Analysis.png)
 
@@ -178,24 +187,24 @@ Create excel sheet to calculate top 3 YouTube channels values calculated using e
 
 ### Validation
 Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd using SQL query
-- Define Variables
-- Create CTE that rounds the average views per video
-- Select columns required for analysis
-- Filter result by YouTube channels with highest subscriber bases
-- Order by net profit (Highest to Lowest)
+1. Define Variables
+2. Create CTE that rounds the average views per video
+3. Select columns required for analysis
+4. Filter result by YouTube channels with highest subscriber bases
+5. Order by net profit (Highest to Lowest)
 
 ![](/assets/images/SQL Analysis.png)
 
 ---
 
 ### Findings & Discovery
-- Top 3 YouTubers with the most subscribers: 
-- Top 3 channels have uploaded the most videos:
-- Top 3 channels have the most views:
-- Top 3 channels have the highest average views per video: 
-- Top 3 channels have the highest views per subscriber ratio:
-- Top 3 channels have the highest subscriber engagement rate per video uploaded:
-- Potential ROI:
+1. Top 3 YouTubers with the most subscribers:
+2. Top 3 channels have uploaded the most videos:
+3. Top 3 channels have the most views:
+4. Top 3 channels have the highest average views per video:
+5. Top 3 channels have the highest views per subscriber ratio:
+6. Top 3 channels have the highest subscriber engagement rate per video uploaded:
+7. Potential ROI:
 	- Setting up a collaboration deal with The Weeknd would make the client a net profit of $150,900 per video
 	- An influencer marketing contract with Super Simple Songs - Kid Songs can see the client generate a net profit of $125,400
 	- Justin Bieber could profit the client $73,200 per video too (which is worth considering)
@@ -203,17 +212,17 @@ Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The 
 ---
 
 ### Recommendations
-- Justin Bieber is the best YouTube channel to collaborate with if we want to maximize visibility because this channel has the most YouTube subscribers in Canada.
-- Although Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
-- The top 3 channels to form collaborations with are Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd based on this analysis, because they attract the most engagement on their channels consistently.
+1. Justin Bieber is the best YouTube channel to collaborate with if we want to maximize visibility because this channel has the most YouTube subscribers in Canada.
+2. Although Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
+3. The top 3 channels to form collaborations with are Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd based on this analysis, because they attract the most engagement on their channels consistently.
 
 ---
 
 ### Action Plan
-- Reach out to the teams behind each of these channels, starting with The Weeknd.
-- Negotiate contracts within the budgets allocated to each marketing campaign.
-- Kick off the campaigns and track each of their performances against the KPIs.
-- Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel’s audiences.
+1. Reach out to the teams behind each of these channels, starting with The Weeknd.
+2. Negotiate contracts within the budgets allocated to each marketing campaign.
+3. Kick off the campaigns and track each of their performances against the KPIs.
+4. Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel’s audiences.
 
 
 
