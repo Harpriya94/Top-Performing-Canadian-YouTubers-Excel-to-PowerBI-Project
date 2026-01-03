@@ -2,7 +2,7 @@
 ## ⬆️Project: Top Performing Canadian YouTubers
 This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
 
-## 📋Table of contents
+### 📋Table of contents
 - [Overview](#overview)
 - [Business Challenge](#business-challenge)
 - [Tools & Technologies](#tools&Technologies)  
