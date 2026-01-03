@@ -172,11 +172,11 @@ Steps taken at this stage:
 ![](/assets/images/DAX Measure - views per subscriber.png)
 
 - Build visuals
- - Create table visual
- - Create a tree map visual
- - Create a scorecard
- - Create a bar chart
- - Clean up the dashboard – color coding and alignments
+  - Create table visual
+  - Create a tree map visual
+  - Create a scorecard
+  - Create a bar chart
+  - Clean up the dashboard – color coding and alignments
 
 ---
 
@@ -204,21 +204,21 @@ Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The 
 ---
 
 ### 🔬Findings & Discovery
-- Top 3 YouTubers with the most subscribers:
-- Top 3 channels have uploaded the most videos:
-- Top 3 channels have the most views:
-- Top 3 channels have the highest average views per video:
-- Top 3 channels have the highest views per subscriber ratio:
-- Top 3 channels have the highest subscriber engagement rate per video uploaded:
+- Top 3 YouTubers with the most subscribers: Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd.
+- Top 3 channels have uploaded the most videos: Justin Bieber, Super Simple Songs - Kid Songs and WatchMojo.com.
+- Top 3 channels have the most views: Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd.
+- Top 3 channels have the highest average views per video: The Weeknd, Super Simple Songs - Kid Songs and Justin Bieber.
+- Top 3 channels have the highest views per subscriber ratio: Super Simple Songs - Kid Songs, The Weeknd and Justin Bieber.
+- Top 3 channels have the highest subscriber engagement rate per video uploaded: The Weeknd, Super Simple Songs - Kid Songs and Justin Bieber.
 - Potential ROI:
-	- Setting up a collaboration deal with The Weeknd would make the client a net profit of $150,900 per video
-	- An influencer marketing contract with Super Simple Songs - Kid Songs can see the client generate a net profit of $125,400
-	- Justin Bieber could profit the client $73,200 per video too (which is worth considering)
+	- Setting up a collaboration deal with The Weeknd would make the client a net profit of $150,900 per video.
+	- An influencer marketing contract with Super Simple Songs - Kid Songs can see the client generate a net profit of $125,400.
+	- Justin Bieber could profit the client $73,200 per video too.
 
 ---
 
 ### 👍Recommendations
-- Justin Bieber is the best YouTube channel to collaborate with if we want to maximize visibility because this channel has the most YouTube subscribers in Canada.
+- Justin Bieber is the best YouTube channel to collaborate with if we want to maximize visibility because this channel has the most YouTube subscribers in Canada. However, The Weeknd has more subscriber enagement rate and average views per video than Justin Bieber channel.
 - Although Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
 - The top 3 channels to form collaborations with are Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd based on this analysis, because they attract the most engagement on their channels consistently.
 
