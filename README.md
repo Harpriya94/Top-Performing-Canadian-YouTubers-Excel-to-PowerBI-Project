@@ -1,7 +1,7 @@
 # Top performing Canada Youtubers Analysis for Marketing Campaign
 
 # Table of contents
-- [Objective](#Objective)
+- [Project Overview](#Project-Overview)
 - [User Story](#userstory)
 - [Data Source](#datasource)
 - [Stages](#stages)
@@ -25,12 +25,16 @@
   - [Potential ROI](#roi)
   - [Potential Courses of Actions](#actions)
 - [Conclusion](#conclusion)
-- [Project Overview](#Project-Overview)
 - [Business Problem](#Business-Problem)
 
-## 📌 Project Overview
-This project is to discover the top performing Canada YouTubers to form marketing collaborations with throughout the year 2024.   
-The goal is to provide **data-driven insights** that help business stakeholders improve **sales strategy, customer retention, and profitability**.
+## Project Overview
+The Head of Marketing wants to use a dashboard that analyses YouTube channel data in the Canada.
+
+This dashboard should allow to identify the top performing channels based on metrics like subscriber base and average views.
+
+With this information, a more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is can be made.
+  
+The goal is to provide **data-driven insights** that help business stakeholders improve **strategy and profitability**.
 
 The project demonstrates **end-to-end data analytics skills** using:
 - **Excel & Python** for data preparation
@@ -39,7 +43,7 @@ The project demonstrates **end-to-end data analytics skills** using:
 
 ---
 
-## 🧠 Business Problem
+## Business Problem
 -	The Head of Marketing has found finding the top YouTube channels in the Canada to run marketing campaigns with difficult.
 -	She has performed online research but constantly bumps into overly complicated and conflicting insights.
 -	She has also held calls with different third-party providers, but they are all expensive options for underwhelming results.
