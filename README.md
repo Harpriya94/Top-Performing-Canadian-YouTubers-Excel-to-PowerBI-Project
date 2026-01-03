@@ -69,10 +69,25 @@ This is the stage where you have a scan of what’s in the data, errors, inconcs
 - Cell formatting from Text/General to Number
 - Rounding up values
 - Extracting Channel Name from first column separated by ‘@’ symbol.
+  
 ![Excel Formula](/assets/images/Excel Formula - Split Cell Value.png) 
 
-
 #### Data Cleaning
+The aim is to refine our dataset to ensure it is structured and ready for analysis. Steps taken at this stage:
+- Create new database – use database
+- Import excel file
+- Remove unnecessary columns (use SELECT statement)
+- Extract YouTube channel names from first column (use CHARINDEX & SUBSTRING)
+
+![SQL Data Cleaning](/assets/images/SQL Data Cleaning.png)
+  
+- Rename the columns as applicable
+- Create SQL view for Power BI
+
+![SQL View](/assets/images/SQL View.png)
+
+
+
 #### Data Quality Check
 #### Visualization
 
