@@ -7,7 +7,7 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 # Table of contents
 - [Project Overview](#Project-Overview)
 - [User Story](#userstory)
-- [Data Source](#datasource)
+- [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#desgin)
   - [Tools & Technologies](#tools&Technologies)  
