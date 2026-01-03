@@ -218,7 +218,7 @@ Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The 
 ---
 
 ### 👍Recommendations
-- Justin Bieber is the best YouTube channel to collaborate with if we want to maximize visibility because this channel has the most YouTube subscribers in Canada. However, The Weeknd has more subscriber enagement rate and average views per video than Justin Bieber channel.
+- Justin Bieber is the best YouTube channel to collaborate with if we want to maximize visibility because this channel has the most YouTube subscribers in Canada. However, The Weeknd has more subscriber engagement rate and average views per video than Justin Bieber channel.
 - Although Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
 - The top 3 channels to form collaborations with are Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd based on this analysis, because they attract the most engagement on their channels consistently.
 
