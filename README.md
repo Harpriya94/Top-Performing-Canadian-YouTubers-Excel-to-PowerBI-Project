@@ -88,13 +88,13 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 #### Data Quality Check
 Steps taken at this stage:
 - Row count test: at least 100 records required (Use COUNT)
-  ```sql
+```sql
 -- Row Count Check
 SELECT 
 	COUNT(*) AS No_of_rows
 FROM 
 	[dbo].[view_canada_youtube]
-  ```sql
+```
   
 - Column count test: at least 4 columns required (Use COUNT in INFORMATION_SCHEMA.COLUMNS)
 ```sql
@@ -105,7 +105,7 @@ FROM
 	INFORMATION_SCHEMA.COLUMNS
 WHERE 
 	TABLE_NAME = 'view_canada_youtube'
-```sql
+```
 
 - Datatype check: Channel name must be string and other columns should be whole numbers (Use INFORMATION_SCHEMA)
 ```sql
@@ -116,8 +116,7 @@ FROM
 	INFORMATION_SCHEMA.COLUMNS
 WHERE 
 	TABLE_NAME = 'view_canada_youtube'
-
-```sql
+```
 
 - Duplicate check: each record must be unique (Use COUNT, GROUP BY, HAVING)
 ```sql
@@ -137,7 +136,7 @@ SELECT
 	COUNT(DISTINCT [Channel_Name]) 
 FROM 
 	[dbo].[view_canada_youtube]
-```sql
+```
 
 ![SQL Quality Check](/assets/images/SQL Data Testing.png)
 
