@@ -80,6 +80,7 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
   
 - Rename the columns as applicable
 - Create SQL view for Power BI
+
 ![SQL View](/assets/images/SQL View.png)
 
 #### Data Quality Check
@@ -116,6 +117,7 @@ WHERE
 ```
 
 - Duplicate check: each record must be unique (Use COUNT, GROUP BY, HAVING)
+
 ```sql
 -- Duplicate Check
 SELECT 
@@ -146,8 +148,8 @@ Steps taken at this stage:
 - Create DAX Measures
 	- Total Subscriber (M) = Sum of Total Subscriber / 1000000
   	![](/assets/images/DAX Measure - Total Subscriber.png)
-   
- 	- Total Views (B) = Sum of Total View / 1000000000
+   	- Total Views (B) = Sum of Total View / 1000000000
+   	  ![](/assets/images/DAX Measure - Total Views.png)
   	- Total Videos = Sum of Total Videos
   	- Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
   	- Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
