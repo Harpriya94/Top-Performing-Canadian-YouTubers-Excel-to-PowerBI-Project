@@ -23,6 +23,8 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 ## Overview
 The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada. This project displays the steps taken to convert raw excel data into power bi dashboard.
 
+<img src="/assets/images/Excel Dataset.png" width="50%" />
+
 ![Raw Data](/assets/images/Excel Dataset.png)
 ![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png)
 
