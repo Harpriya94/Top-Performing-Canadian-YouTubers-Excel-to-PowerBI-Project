@@ -20,32 +20,40 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 - [Recommendations](#recommendations)
 - [Action Plan](#action-plan)
 
-## Overview
-The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada. This project displays the steps taken to convert raw excel data into power bi dashboard.
-
-<img src="/assets/images/Excel Dataset.png" width="30%" /> ➡️ <img src="/assets/images/Power BI Dashboard Visual.png" width="30%" />
-
+## 📝Overview
+The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada.
+This project displays the steps taken to convert raw excel data into power bi dashboard.
 
 ![Raw Data](/assets/images/Excel Dataset.png) 
 ![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png)
 
-## Business Challenge
-•	The Head of Marketing has found that finding the top YouTube channels in the Canada to run marketing campaigns with difficult.
-•	She has performed online research but constantly bumps into overly complicated and conflicting insights.
-•	She has also held calls with different third-party providers, but they are all expensive options for underwhelming results.
-•	The reporting team lack the bandwidth to assist her with this assignment.
+---
+
+## 💻Business Challenge
+-	The Head of Marketing has found that finding the top YouTube channels in the Canada to run marketing campaigns with difficult.
+-	She has performed online research but constantly bumps into overly complicated and conflicting insights.
+-	She has also held calls with different third-party providers, but they are all expensive options for underwhelming results.
+-	The reporting team lack the bandwidth to assist her with this assignment.
+
+---
+
+## Tools & Technologies
+
+| Tool |Purpose | Skills Demonstrated |
+|-----|---------|-----------|
+| Excel | Exploring the data | Formulas, Data Conversion, Data Formatting |
+| SQL | Cleaning, testing, and analyzing the data | CTEs, INFORMATION_SCHEMA, SQL Views |
+| Power BI | Visualizing the data via interactive dashboards | DAX measures, Charts, Maps |
+| Github | Hosting the project documentation and version control | Project Mangement | 
+
+---
 
 
 
 
 
 
-
-
-
-
-
-
+<img src="/assets/images/Excel Dataset.png" width="30%" /> ➡️ <img src="/assets/images/Power BI Dashboard Visual.png" width="30%" />
 This dashboard should allow to identify the top performing channels based on metrics like subscriber base and average views.
 
 With this information, a more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is can be made.
