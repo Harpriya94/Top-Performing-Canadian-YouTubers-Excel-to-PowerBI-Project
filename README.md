@@ -23,11 +23,27 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 ## Overview
 The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada. This project displays the steps taken to convert raw excel data into power bi dashboard.
 
-<img src="/assets/images/Excel Dataset.png" width=50 /> ➡️ <img src="/assets/images/Power BI Dashboard Visual.png" width=50 />
+<img src="/assets/images/Excel Dataset.png" width="30%" /> ➡️ <img src="/assets/images/Power BI Dashboard Visual.png" width="30%" />
 
 
-![Raw Data](/assets/images/Excel Dataset.png | width="50") 
-![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png =250x250)
+![Raw Data](/assets/images/Excel Dataset.png) 
+![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png)
+
+## Business Challenge
+•	The Head of Marketing has found that finding the top YouTube channels in the Canada to run marketing campaigns with difficult.
+•	She has performed online research but constantly bumps into overly complicated and conflicting insights.
+•	She has also held calls with different third-party providers, but they are all expensive options for underwhelming results.
+•	The reporting team lack the bandwidth to assist her with this assignment.
+
+
+
+
+
+
+
+
+
+
 
 
 This dashboard should allow to identify the top performing channels based on metrics like subscriber base and average views.
