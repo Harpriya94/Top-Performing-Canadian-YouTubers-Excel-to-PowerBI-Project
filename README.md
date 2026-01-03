@@ -80,7 +80,6 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
   
 - Rename the columns as applicable
 - Create SQL view for Power BI
-
 ![SQL View](/assets/images/SQL View.png)
 
 #### Data Quality Check
@@ -117,7 +116,6 @@ WHERE
 ```
 
 - Duplicate check: each record must be unique (Use COUNT, GROUP BY, HAVING)
-
 ```sql
 -- Duplicate Check
 SELECT 
@@ -146,14 +144,14 @@ This is how dashboard looks like:
 Steps taken at this stage:
 - Import SQL view file (cleaned) into power bi
 - Create DAX Measures
-	- Total Subscriber (M) = Sum of Total Subscriber / 1000000
+	1. Total Subscriber (M) = Sum of Total Subscriber / 1000000
   	![](/assets/images/DAX Measure - Total Subscriber.png)
-   	- Total Views (B) = Sum of Total View / 1000000000
-   	  ![](/assets/images/DAX Measure - Total Views.png)
-  	- Total Videos = Sum of Total Videos
-  	- Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
-  	- Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
-  	- Views per Subscriber = Sum of Total View / Sum of Total Subscriber
+   	2. Total Views (B) = Sum of Total View / 1000000000
+  	![](/assets/images/DAX Measure - Total Views.png)
+  	4. Total Videos = Sum of Total Videos
+  	5. Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
+  	6. Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
+  	7. Views per Subscriber = Sum of Total View / Sum of Total Subscriber
 - Build visuals
 	- Create table visual
 	- Create a tree map visual
