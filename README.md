@@ -76,32 +76,11 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 - Import excel file
 - Remove unnecessary columns (use SELECT statement)
 - Extract YouTube channel names from first column (use CHARINDEX & SUBSTRING)
-```sql
--- CHARINDEX
-SELECT
-	CHARINDEX('@', [NAME]), [NAME]
-FROM
-	[dbo].[youtube_data_canada]
-
--- SUBSTRING & CREATING VIEW FOR POWER BI
-CREATE VIEW
-	view_canada_youtube
-AS SELECT 
-	CAST(SUBSTRING([NAME], 1, CHARINDEX('@',[NAME])-1) AS varchar(100)) as 'Channel_Name',
-	[Total_Subscriber],
-	[Total_Views],
-	[Total_Videos]
-FROM
-	[dbo].[youtube_data_canada]
-```
-
 ![SQL Data Cleaning](/assets/images/SQL Data Cleaning.png)
   
 - Rename the columns as applicable
 - Create SQL view for Power BI
-
 ![SQL View](/assets/images/SQL View.png)
-
 
 #### Data Quality Check
 Steps taken at this stage:
@@ -159,8 +138,26 @@ FROM
 ![SQL Quality Check](/assets/images/SQL Data Testing.png)
 
 #### Visualization
+This is how dashboard looks like:
+![Dashboard](assets/images/Power BI Dashboard Visual.png)
 
-
+Steps taken at this stage:
+- Import SQL view file (cleaned) into power bi
+- Create DAX Measures
+	- Total Subscriber (M) = Sum of Total Subscriber / 1000000
+  	![](/assets/images/DAX Measure - Total Subscriber.png)
+   
+ 	- Total Views (B) = Sum of Total View / 1000000000
+  	- Total Videos = Sum of Total Videos
+  	- Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
+  	- Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
+  	- Views per Subscriber = Sum of Total View / Sum of Total Subscriber
+- Build visuals
+	- Create table visual
+	- Create a tree map visual
+ 	- Create a scorecard
+  	- Create a bar chart
+  	- Clean up the dashboard – color coding and alignments
 
 ---
 
