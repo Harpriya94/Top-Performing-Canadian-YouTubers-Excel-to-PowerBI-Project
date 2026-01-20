@@ -23,8 +23,9 @@ The project focuses on identifying **high-performing Canadian YouTubers** to hel
 
 The Head of Marketing wants to use a dashboard to analyze the top performing YouTube channels in the Canada. This project displays the steps taken to convert raw excel data into power bi dashboard.
 
-![Raw Data](/assets/images/Excel Dataset.png) 
-![Power BI Dashboard](/assets/images/Power BI Dashboard Visual.png)
+![](/assets/images/ExcelDataset.png)
+
+![](/assets/images/PowerBIDashboardVisual.png)
 
 ---
 
@@ -69,7 +70,7 @@ This is the stage where you have a scan of what’s in the data, errors, inconcs
 - Rounding up values
 - Extracting Channel Name from first column separated by ‘@’ symbol.
 
-![Excel Formula](/assets/images/Excel Formula - Split Cell Value.png)
+![](/assets/images/Excel Formula - Split Cell Value.png)
 
 #### 🧹Data Cleaning
 The aim is to refine our dataset to ensure it is structured and ready for analysis. Steps taken at this stage:
