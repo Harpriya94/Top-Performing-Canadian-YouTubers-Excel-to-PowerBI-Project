@@ -5,7 +5,7 @@ This is an end-to-end **data analytics project** demonstrating my ability to **c
 ### 📋Table of contents
 - [Overview](#overview)
 - [Business Challenge](#business-challenge)
-- [Tools & Technologies](#tools&Technologies)  
+- [Tools and Technologies](#tools-and-Technologies)  
 - [Project Stages](#project-stages)
   - [Development](#development)
     - [Data Exploration](#data-exploration)
@@ -37,7 +37,7 @@ The Head of Marketing wants to use a dashboard to analyze the top performing You
 
 ---
 
-### ⚙️Tools & Technologies
+### ⚙️Tools and Technologies
 
 | Tool |Purpose | Skills Demonstrated |
 |-----|---------|-----------|
@@ -70,7 +70,7 @@ This is the stage where you have a scan of what’s in the data, errors, inconcs
 - Rounding up values
 - Extracting Channel Name from first column separated by ‘@’ symbol.
 
-![](/assets/images/Excel Formula - Split Cell Value.png)
+![](/assets/images/ExcelFormulaSplitCellValue.png)
 
 #### 🧹Data Cleaning
 The aim is to refine our dataset to ensure it is structured and ready for analysis. Steps taken at this stage:
@@ -79,11 +79,12 @@ The aim is to refine our dataset to ensure it is structured and ready for analys
 - Remove unnecessary columns (use SELECT statement)
 - Extract YouTube channel names from first column (use CHARINDEX & SUBSTRING)
 
- ![SQL Data Cleaning](/assets/images/SQL Data Cleaning.png)
+ ![](/assets/images/SQLDataCleaning.png)
+ 
 - Rename the columns as applicable
 - Create SQL view for Power BI
 
- ![SQL View](/assets/images/SQL View.png)
+ ![](/assets/images/SQLView.png)
 
 #### 🩺Data Quality Check
 Steps taken at this stage:
@@ -143,35 +144,35 @@ FROM
 	[dbo].[view_canada_youtube]
 ```
 
-![SQL Quality Check](/assets/images/SQL Data Testing.png)
+![](/assets/images/SQLDataTesting.png)
 
 #### 🎭Visualization
 Dashboard consist table containing all data. It shows a tree map and bar chart of top 10 Youtubers by views and subscribers. This is how dashboard looks like:  
 
-![Dashboard](assets/images/Power BI Dashboard Visual.png)  
+![](assets/images/PowerBIDashboardVisual.png)  
 
 
 Steps taken at this stage:
 - Import SQL view file (cleaned) into power bi
 - Create DAX Measures
 	- Total Subscriber (M) = Sum of Total Subscriber / 1000000
-![](/assets/images/DAX Measure - Total Subscriber.png)
-
+   
+	![](/assets/images/DAXMeasureTotalSubscriber.png)
 	- Total Views (B) = Sum of Total View / 1000000000
-![](/assets/images/DAX Measure - Total Views.png)
 
+	![](/assets/images/DAXMeasureTotalViews.png)
 	- Total Videos = Sum of the Total Videos
-![](/assets/images/DAX Measure - Total Videos.png)
-
+	
+	![](/assets/images/DAXMeasureTotalVideos.png)
 	- Average Views per video (M) = (Sum of Total View / Sum of Total Videos) / 1000000
-![](/assets/images/DAX Measure - Avg Views Per Video.png)
-
+	
+	![](/assets/images/DAXMeasureAvgViewsPerVideo.png)
 	- Subscriber Engagement Rate = Sum of Total Subscriber / Sum of Total Videos
-![](/assets/images/DAX Measure - Subs Eng Rate.png)
-
+	
+	![](/assets/images/DAXMeasureSubsEngRate.png)
 	- Views per Subscriber = Sum of Total View / Sum of Total Subscriber
-![](/assets/images/DAX Measure - views per subscriber.png)
-
+	
+	![](/assets/images/DAXMeasureviewspersubscriber.png)
 - Build visuals
   - Create table visual
   - Create a tree map visual
@@ -188,7 +189,7 @@ Create excel sheet to calculate top 3 YouTube channels values calculated using e
 -  Potential Revenue per Video $CAD = Potential Product Sales per Video * Production Cost
 -   Net Profit = Potential Revenue per Video $CAD – Campaign Cost
 
-![](/assets/images/Excel Analysis.png)
+![](/assets/images/ExcelAnalysis.png)
 
 ---
 
@@ -200,7 +201,7 @@ Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The 
 - Filter result by YouTube channels with highest subscriber bases
 - Order by net profit (Highest to Lowest)
 
-![](/assets/images/SQL Analysis.png)
+![](/assets/images/SQLAnalysis.png)
 
 ---
 
