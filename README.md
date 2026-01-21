@@ -1,5 +1,6 @@
-# 🌟Excel to Power BI 
-## ⬆️Project: Top Performing Canadian YouTubers
+# ⬆️Project: Top Performing Canadian YouTubers
+## 🌟Excel to Power BI
+
 This is an end-to-end **data analytics project** demonstrating my ability to **clean, analyze, and visualize data** using **Excel, SQL, and Power BI** to support **real-world business decisions**.
 
 ### 📋Table of contents
@@ -146,7 +147,7 @@ FROM
 
 ![](/assets/images/SQLDataTesting.png)
 
-#### 🎭Visualization
+### 🎭Visualization
 Dashboard consist table containing all data. It shows a tree map and bar chart of top 10 Youtubers by views and subscribers. This is how dashboard looks like:  
 
 ![](assets/images/PowerBIDashboardVisual.png)  
