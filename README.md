@@ -6,7 +6,7 @@ This is an end-to-end **data analytics project** demonstrating my ability to **c
 ### 📋Table of contents
 - [Overview](#overview)
 - [Business Challenge](#business-challenge)
-- [Tools and Technologies](#tools-and-Technologies)  
+- [Tools and Technologies](#tools-and-technologies)  
 - [Project Stages](#project-stages)
   - [Development](#development)
     - [Data Exploration](#data-exploration)
@@ -14,8 +14,8 @@ This is an end-to-end **data analytics project** demonstrating my ability to **c
     - [Data Quality Check](#data-quality-check)
     - [Visualization](#visualization)
   - [Analysis](#analysis)
-  - [Validation](#validation)
-- [Findings & Discovery](#findings&discovery)
+  - [Data Validation](#data-validation)
+- [Findings and Discovery](#findings-and-discovery)
 - [Recommendations](#recommendations)
 - [Action Plan](#action-plan)
 
@@ -147,7 +147,7 @@ FROM
 
 ![](/assets/images/SQLDataTesting.png)
 
-### 🎭Visualization
+#### 🎭Visualization
 Dashboard consist table containing all data. It shows a tree map and bar chart of top 10 Youtubers by views and subscribers. This is how dashboard looks like:  
 
 ![](assets/images/PowerBIDashboardVisual.png)  
@@ -194,7 +194,7 @@ Create excel sheet to calculate top 3 YouTube channels values calculated using e
 
 ---
 
-### ☑️Validation
+### ☑️Data Validation
 Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd using SQL query
 - Define Variables
 - Create CTE that rounds the average views per video
@@ -206,7 +206,7 @@ Calculation breakdown for Justin Bieber, Super Simple Songs - Kid Songs and The 
 
 ---
 
-### 🔬Findings & Discovery
+### 🔬Findings and Discovery
 - Top 3 YouTubers with the most subscribers: Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd.
 - Top 3 channels have uploaded the most videos: Justin Bieber, Super Simple Songs - Kid Songs and WatchMojo.com.
 - Top 3 channels have the most views: Justin Bieber, Super Simple Songs - Kid Songs and The Weeknd.
